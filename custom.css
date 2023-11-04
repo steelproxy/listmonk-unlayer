@@ -1,0 +1,31 @@
+.editorbutton{
+    background-color: #0055d4;
+    border: solid;
+    border-width: 1px;
+    border-radius: 4px;
+    font-family: Inter,Helvetica Neue,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    height:50px; 
+    width:100px; 
+    margin: 20px 20px; 
+    position:sticky;
+}
+
+.editorbutton:hover {
+      background: #003688;
+  }
+  
+.editorbutton:active {
+    background: #0055d4;
+}
+
+.editorbutton:disabled
+{
+  background: #363636;
+}
